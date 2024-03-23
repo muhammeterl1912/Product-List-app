@@ -1,4 +1,32 @@
-.header{
-    font-size: larger;
-  color: blue;
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.header {
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 5rem;
+  h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    color: $cardNavbgColor;
+  }
+  .btns {
+    @include flex(row, center, 1rem);
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 1rem;
+    button {
+      padding: 1rem;
+      border-radius: 1rem;
+      cursor: pointer;
+      border: none;
+      text-transform: uppercase;
+      transition: all 0.8s;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
 }
