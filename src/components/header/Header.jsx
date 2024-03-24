@@ -6,18 +6,18 @@ import { useState } from "react";
 const Header = ({ categories, text }) => {
   const [show, showData] = useState(products);
 
-  const filteredData1 = products.filter((item) => {
-    return item.category === categories[1];
-  });
-  const filteredData2 = products.filter((item) => {
-    return item.category === categories[2];
-  });
-  const filteredData3 = products.filter((item) => {
-    return item.category === categories[3];
-  });
-  const filteredData4 = products.filter((item) => {
-    return item.category === categories[4];
-  });
+  const filteredData1 = products.filter(
+    (item) => item.category === categories[1]
+  );
+  const filteredData2 = products.filter(
+    (item) => item.category === categories[2]
+  );
+  const filteredData3 = products.filter(
+    (item) => item.category === categories[3]
+  );
+  const filteredData4 = products.filter(
+    (item) => item.category === categories[4]
+  );
 
   return (
     <div className={HeaderStyles.header}>
