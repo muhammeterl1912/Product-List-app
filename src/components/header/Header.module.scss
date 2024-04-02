@@ -29,4 +29,17 @@
       }
     }
   }
+  .input {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 50vh;
+    border: none;
+    border-radius: 10px;
+
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
 }
