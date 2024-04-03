@@ -12,7 +12,7 @@ const filteredData = products.filter((item) => item.title.toLowerCase().includes
         <ProductCard key={product.id} {...product} />
       ))}
       { 
-        filteredData.length < 1 && (
+        !filteredData.length  && (
           <div>
             <h1> Product not found...</h1>
           </div>
