@@ -4,7 +4,7 @@ Product-List-App is a React application that allows users to search and filter t
 
 ## Demo
 
-You can view a live demo of the application [here](https://cerulean-cassata-eed6f4.netlify.app/).
+👉 You can view a live demo of the application [here](https://cerulean-cassata-eed6f4.netlify.app/).
 
 ## Features
 
